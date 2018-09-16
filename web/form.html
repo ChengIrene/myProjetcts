@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <h1 align="center"> Choose beer </h1>
+        <form method = "POST"
+              action = "SelectBeer.do"> <!-- HTML呼叫Servlet的方式 這只是個邏輯名稱(讓客戶使用的,對應DD檔) -->
+            Choose you want to drink beer <p>
+                color:
+                <select name = "color" size = "1">  <!-- 這部分為設計的下拉選單,選單項目可以修改為想要的內容 -->
+                    <option> light
+                    <option> amber
+                    <option> brown
+                    <option> dark
+                </select>
+                <br><br>
+            <center> <!--Deprecated HTML tag-->
+                <input type = "SUBMIT">
+            </center>
+        </form>
+    </body>
+</html>

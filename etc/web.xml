@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>Hello name1</servlet-name>
+        <servlet-class>web.HelloWorld</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Hello name1</servlet-name>>
+        <url-pattern>/Public</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Hi World</servlet-name>
+        <servlet-class>web.HiWorld</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Hi World</servlet-name>
+        <url-pattern>/hi</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Hi Beer</servlet-name>
+        <servlet-class>web.BeerSelect</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Hi Beer</servlet-name>
+        <url-pattern>/SelectBeer.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BeerParamTests</servlet-name>
+        <servlet-class>web.TestInitParams</servlet-class>
+
+        <!--
+            <init-param>
+                <param-name>adminEmail</param-name>
+                <param-value>likewecare@wickedlysmart.com</param-value>
+            </init-param>
+        -->
+
+        <!--
+            <init-param>
+                <param-name>mainEmail</param-name>
+                <param-value>blooper@wickedlysmart.com</param-value>
+            </init-param>
+        -->
+
+    </servlet>
+
+     <context-param>
+         <param-name>adminEmail</param-name>>
+         <param-value>clientheaderoor@wickedlysmart.com</param-value>
+     </context-param>
+
+    <context-param>
+        <param-name>mainEmail</param-name>
+        <param-value>blooper@wickedlysmart.com</param-value>
+    </context-param>>
+
+    <servlet-mapping>
+        <servlet-name>BeerParamTests</servlet-name>
+        <url-pattern>/Tester.do</url-pattern>
+    </servlet-mapping>
+
+    <!--
+    P.161的練習題答案
+
+        <servlet>
+            <servlet-name>BeerTest</servlet-name>
+            <servlet-class>com.wickedlysmart.BeerTester</servlet-class>>
+        </servlet>
+
+        <context-param>
+            <param-name>foo</param-name>
+            <param-value>bar</param-value>
+        </context-param>
+
+    <init-param>是用來定義Servlet初始化參數,而不是Context初始化參數
+    只會在<servlet>元素中,找到<init-param>元素
+    -->
+
+    <servlet>
+        <servlet-name>ListenerTester</servlet-name>
+        <servlet-class>example.ListenerTester</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ListenerTester</servlet-name>
+        <url-pattern>/ListenTest.do</url-pattern>
+    </servlet-mapping>
+
+    <!--這個應用系統中需要設定一個Context初始化參數,聆聽器會用到這個參數來建構出Dog物件-->
+    <context-param>
+        <param-name>breed</param-name>
+        <param-value>Great Dane</param-value>
+    </context-param>
+
+    <!-- Lunch Information-->
+
+    <!--
+    這裡將這個類別註冊為聆聽器
+    這個<listener>元素不是放在<servlet>元素之中!
+    不能這麼做是因為context聆聽器是為了ServletContext所設計的
+    (這表示,他是以整個應用系統為範圍的application-wide)事件
+    它的主要目的是要在任何一個Servlet初始化之前,先做應用系統的初始化
+    -->
+    <listener>
+        <listener-class>example.MyServletContextListener</listener-class>
+    </listener>
+
+</web-app>
