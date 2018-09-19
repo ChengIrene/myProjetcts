@@ -11,7 +11,7 @@
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>Hello name1</servlet-name>>
+        <servlet-name>Hello name1</servlet-name>
         <url-pattern>/Public</url-pattern>
     </servlet-mapping>
 
@@ -103,6 +103,8 @@
         <param-value>Great Dane</param-value>
     </context-param>
 
+    <!-- Lunch Information-->
+
     <!--
     這裡將這個類別註冊為聆聽器
     這個<listener>元素不是放在<servlet>元素之中!
@@ -112,6 +114,43 @@
     -->
     <listener>
         <listener-class>example.MyServletContextListener</listener-class>
+    </listener>
+
+    //作業部分
+    <servlet>
+        <servlet-name>LunchBoxListenerTest</servlet-name>
+        <servlet-class>example.LunchBoxListenerTest</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LunchBoxListenerTest</servlet-name>
+        <url-pattern>/LunchBoxTest.do</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>name</param-name>
+        <param-value>Roiled chicken drumstick Lunch Box</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>mainDish</param-name>
+        <param-value>Chicken</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>sideDish</param-name>
+        <param-value>Cabbage</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>drink</param-name>
+        <param-value>Black Tea</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>
+            example.LunchBoxListener
+        </listener-class>
     </listener>
 
 </web-app>
