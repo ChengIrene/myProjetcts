@@ -23,9 +23,9 @@ public class LunchBoxListenerTest extends HttpServlet {
 
         LunchBox lunchBox = (LunchBox) getServletContext().getAttribute("lunchBox");
 
-        out.println("Name: " + lunchBox.getName());
-        out.println("Main dish: " + lunchBox.getMainDish());
-        out.println("Side dish: " + lunchBox.getSideDish());
+        out.println("Name: " + lunchBox.getName() + " / ");
+        out.println("Main dish: " + lunchBox.getMainDish() + " / ");
+        out.println("Side dish: " + lunchBox.getSideDish() + " / ");
         out.println("Drink: " + lunchBox.getDrink());
     }
 }

@@ -12,7 +12,7 @@ public class LunchBoxListener implements ServletContextListener {
         String lunchBoxName = sc.getInitParameter("name");
         String lunchBoxMainDish = sc.getInitParameter("mainDish");
         String lunchBoxSideDish = sc.getInitParameter("sideDish");
-        String lunchBoxDrink = sc.getInitParameter("blackTea");
+        String lunchBoxDrink = sc.getInitParameter("drink");
 
         LunchBox box = new LunchBox(lunchBoxName, lunchBoxMainDish, lunchBoxSideDish, lunchBoxDrink);
         sc.setAttribute("lunchBox", box);

@@ -129,7 +129,7 @@
 
     <context-param>
         <param-name>name</param-name>
-        <param-value>Roiled chicken drumstick Lunch Box</param-value>
+        <param-value>Roiled chicken drumstick lunch box</param-value>
     </context-param>
 
     <context-param>
@@ -144,7 +144,7 @@
 
     <context-param>
         <param-name>drink</param-name>
-        <param-value>Black Tea</param-value>
+        <param-value>Black tea</param-value>
     </context-param>
 
     <listener>
