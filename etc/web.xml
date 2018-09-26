@@ -153,4 +153,26 @@
         </listener-class>
     </listener>
 
+    //TestSession
+    <servlet>
+        <servlet-name>TestSession</servlet-name>
+        <servlet-class>web.TestSession</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TestSession</servlet-name>
+        <url-pattern>/testSession.do</url-pattern>
+    </servlet-mapping>
+
+    //TestSession2
+    <servlet>
+        <servlet-name>TestSession2</servlet-name>
+        <servlet-class>web.TestSession2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TestSession2</servlet-name>
+        <url-pattern>/testSession2.do</url-pattern>
+    </servlet-mapping>
+
 </web-app>

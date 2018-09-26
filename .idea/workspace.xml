@@ -7,11 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48a92b5c-bc36-4bbf-92f8-c3740179e44e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/web/TestSession2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/LunchBoxListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/LunchBoxListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/LunchBoxListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/LunchBoxListenerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web_war/web_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web_war/web_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/example/LunchBoxListenerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/example/LunchBoxListenerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +28,7 @@
     <session id="74225152">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.109" value="1" />
@@ -72,7 +73,7 @@
           <entry key="html" value="20" />
           <entry key="java" value="6396" />
           <entry key="jsp" value="1124" />
-          <entry key="xml" value="2322" />
+          <entry key="xml" value="2325" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -82,26 +83,91 @@
           <entry key="JAVA" value="6396" />
           <entry key="JSP" value="1124" />
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="XML" value="2322" />
+          <entry key="XML" value="2325" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-534891785">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1158" />
+          <entry key="xml" value="128" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1158" />
+          <entry key="XML" value="128" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="146" column="26" lean-forward="true" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
+            <state relative-caret-position="3168">
+              <caret line="176" selection-start-line="176" selection-end-line="176" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/HelloWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/TestSession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/TestSession2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="32" column="64" lean-forward="true" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/LunchBoxListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="216">
               <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,18 +188,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/LunchBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -175,13 +231,15 @@
         <option value="$PROJECT_DIR$/src/web/TestInitParams.java" />
         <option value="$PROJECT_DIR$/src/example/MyServletContextListener.java" />
         <option value="$PROJECT_DIR$/src/example/Dog.java" />
-        <option value="$PROJECT_DIR$/etc/web.xml" />
         <option value="$PROJECT_DIR$/src/example/ListenerTester.java" />
         <option value="$PROJECT_DIR$/src/example/LunchBox.java" />
-        <option value="$PROJECT_DIR$/etc/web.xml" />
         <option value="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/example/LunchBoxListenerTest.java" />
         <option value="$PROJECT_DIR$/src/example/LunchBoxListener.java" />
+        <option value="$PROJECT_DIR$/src/web/TestSession.java" />
+        <option value="$PROJECT_DIR$/src/web/TestSession2.java" />
+        <option value="$PROJECT_DIR$/etc/web.xml" />
+        <option value="$PROJECT_DIR$/etc/web.xml" />
       </list>
     </option>
   </component>
@@ -212,7 +270,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -244,71 +302,111 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="MyProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MyProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
               <item name="etc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MyProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MyProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MyProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="web_war_exploded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="web_war_exploded" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MyProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="web_war_exploded" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MyProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="web_war_exploded" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MyProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="web_war_exploded" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
               <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MyProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="web_war_exploded" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
               <item name="artifacts" type="462c0819:PsiDirectoryNode" />
               <item name="web_war" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,7 +417,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="myprojects" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537383300942" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537990728226" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -440,12 +538,14 @@
       <workItem from="1536412438668" duration="1164000" />
       <workItem from="1536770117035" duration="10074000" />
       <workItem from="1536942178784" duration="14001000" />
-      <workItem from="1537121463132" duration="16266000" />
+      <workItem from="1537121463132" duration="16959000" />
+      <workItem from="1537436299004" duration="1284000" />
+      <workItem from="1537983241724" duration="6828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94737000" />
+    <option name="totallyTimeSpent" value="103542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,15 +558,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4909688" visible="true" weight="0.13615733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48932678" visible="true" weight="0.13993949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.5090312" side_tool="true" weight="0.13615733" />
+      <window_info id="Web" order="7" sideWeight="0.5106732" side_tool="true" weight="0.13993949" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32840723" />
@@ -597,9 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -617,16 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/ListenerTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -638,9 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -662,9 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#753#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,6 +754,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/LunchBoxListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -687,35 +786,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/LunchBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="270">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/TestSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
           <folding>
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/TestSession2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="64" lean-forward="true" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="146" column="26" lean-forward="true" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/LunchBoxListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="3168">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
         </state>
       </provider>
     </entry>
