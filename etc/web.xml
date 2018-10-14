@@ -175,4 +175,26 @@
         <url-pattern>/testSession2.do</url-pattern>
     </servlet-mapping>
 
+    //CheckCookie
+    <servlet>
+        <servlet-name>CheckCookie</servlet-name>
+        <servlet-class>web.CheckCookie</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckCookie</servlet-name>
+        <url-pattern>/checkCookie.do</url-pattern>
+    </servlet-mapping>
+
+    //CookieTest
+    <servlet>
+        <servlet-name>CookieTest</servlet-name>
+        <servlet-class>web.CookieTest</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CookieTest</servlet-name>
+        <url-pattern>/cookieTest.do</url-pattern>
+    </servlet-mapping>
+
 </web-app>
