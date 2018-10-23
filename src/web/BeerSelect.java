@@ -39,7 +39,7 @@ public class BeerSelect extends HttpServlet {  //HttpServlet繼承自實作Servl
         //在最後一個版本中(第三版),這些建議將會輸出至一個JSP而不是Servlet
 
         request.setAttribute("styles", result);
-        //在請求物件中加一個屬性給JSP用,注意屬行名稱是"styles"
+        //在請求物件中加一個屬性給JSP用,注意屬性名稱是"styles"
 
         RequestDispatcher view = request.getRequestDispatcher("result.jsp");
         //找到這個JSP的請求派遣物件(request dispatcher)

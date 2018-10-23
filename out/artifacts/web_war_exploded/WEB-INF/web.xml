@@ -197,4 +197,15 @@
         <url-pattern>/cookieTest.do</url-pattern>
     </servlet-mapping>
 
+    //Ch7 exercise p.298
+    <servlet>
+        <servlet-name>Your Hobby</servlet-name>
+        <servlet-class>web.HobbySelect</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Your Hobby</servlet-name>
+        <url-pattern>/HobbyPage.do</url-pattern>
+    </servlet-mapping>
+
 </web-app>
