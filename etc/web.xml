@@ -16,6 +16,16 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>testEl</servlet-name>
+        <servlet-class>web.TestEL</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>testEl</servlet-name>
+        <url-pattern>/testEl</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>Hi World</servlet-name>
         <servlet-class>web.HiWorld</servlet-class>
     </servlet>
@@ -63,7 +73,7 @@
     <context-param>
         <param-name>mainEmail</param-name>
         <param-value>blooper@wickedlysmart.com</param-value>
-    </context-param>>
+    </context-param>
 
     <servlet-mapping>
         <servlet-name>BeerParamTests</servlet-name>
@@ -206,6 +216,16 @@
     <servlet-mapping>
         <servlet-name>Your Hobby</servlet-name>
         <url-pattern>/HobbyPage.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Person Dog Toy</servlet-name>
+        <servlet-class>web.PersonDogToy</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Person Dog Toy</servlet-name>
+        <url-pattern>/personDogToy</url-pattern>
     </servlet-mapping>
 
 </web-app>
